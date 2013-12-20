@@ -7,6 +7,14 @@
         <element xmi:type="ecore:EAttribute" href="AddressBook.ecore#//Entry/Name"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_xz1vMWhjEeOewaP2TFoHvQ"/>
       </children>
+      <children xmi:type="notation:Node" xmi:id="__2q6cGlYEeOLD6tcMLXuOA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="AddressBook.ecore#//Entry/ID"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__2q6cWlYEeOLD6tcMLXuOA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_hsv8sGlcEeOLD6tcMLXuOA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="AddressBook.ecore#//Entry/ParentID"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hsv8sWlcEeOLD6tcMLXuOA"/>
+      </children>
       <styles xmi:type="notation:DrawerStyle" xmi:id="_kB4bMWhjEeOewaP2TFoHvQ"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_kB4bMmhjEeOewaP2TFoHvQ"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_kB4bM2hjEeOewaP2TFoHvQ"/>

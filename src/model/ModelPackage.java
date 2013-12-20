@@ -76,13 +76,31 @@ public interface ModelPackage extends EPackage {
 	int ENTRY__NAME = 0;
 
 	/**
+	 * The feature id for the '<em><b>ID</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ENTRY__ID = 1;
+
+	/**
+	 * The feature id for the '<em><b>Parent ID</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ENTRY__PARENT_ID = 2;
+
+	/**
 	 * The number of structural features of the '<em>Entry</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int ENTRY_FEATURE_COUNT = 1;
+	int ENTRY_FEATURE_COUNT = 3;
 
 	/**
 	 * The number of operations of the '<em>Entry</em>' class.
@@ -111,6 +129,24 @@ public interface ModelPackage extends EPackage {
 	 * @ordered
 	 */
 	int PERSON__NAME = ENTRY__NAME;
+
+	/**
+	 * The feature id for the '<em><b>ID</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PERSON__ID = ENTRY__ID;
+
+	/**
+	 * The feature id for the '<em><b>Parent ID</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PERSON__PARENT_ID = ENTRY__PARENT_ID;
 
 	/**
 	 * The feature id for the '<em><b>Email</b></em>' attribute.
@@ -157,6 +193,24 @@ public interface ModelPackage extends EPackage {
 	 * @ordered
 	 */
 	int GROUP__NAME = ENTRY__NAME;
+
+	/**
+	 * The feature id for the '<em><b>ID</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int GROUP__ID = ENTRY__ID;
+
+	/**
+	 * The feature id for the '<em><b>Parent ID</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int GROUP__PARENT_ID = ENTRY__PARENT_ID;
 
 	/**
 	 * The feature id for the '<em><b>Entries</b></em>' containment reference list.
@@ -206,6 +260,28 @@ public interface ModelPackage extends EPackage {
 	 * @generated
 	 */
 	EAttribute getEntry_Name();
+
+	/**
+	 * Returns the meta object for the attribute '{@link model.Entry#getID <em>ID</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>ID</em>'.
+	 * @see model.Entry#getID()
+	 * @see #getEntry()
+	 * @generated
+	 */
+	EAttribute getEntry_ID();
+
+	/**
+	 * Returns the meta object for the attribute '{@link model.Entry#getParentID <em>Parent ID</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Parent ID</em>'.
+	 * @see model.Entry#getParentID()
+	 * @see #getEntry()
+	 * @generated
+	 */
+	EAttribute getEntry_ParentID();
 
 	/**
 	 * Returns the meta object for class '{@link model.Person <em>Person</em>}'.
@@ -289,6 +365,22 @@ public interface ModelPackage extends EPackage {
 		 * @generated
 		 */
 		EAttribute ENTRY__NAME = eINSTANCE.getEntry_Name();
+
+		/**
+		 * The meta object literal for the '<em><b>ID</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ENTRY__ID = eINSTANCE.getEntry_ID();
+
+		/**
+		 * The meta object literal for the '<em><b>Parent ID</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ENTRY__PARENT_ID = eINSTANCE.getEntry_ParentID();
 
 		/**
 		 * The meta object literal for the '{@link model.impl.PersonImpl <em>Person</em>}' class.
