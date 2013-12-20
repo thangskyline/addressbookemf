@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/AddressBookEMF/src" modelPluginID="AddressBookEMF"
+    modelName="AddressBook" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="7.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>AddressBook.ecore</foreignModel>
+  <genPackages prefix="Model" disposableProviderFactory="true" ecorePackage="AddressBook.ecore#/">
+    <genClasses ecoreClass="AddressBook.ecore#//Entry">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AddressBook.ecore#//Entry/Name"/>
+    </genClasses>
+    <genClasses ecoreClass="AddressBook.ecore#//Person">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AddressBook.ecore#//Person/Email"/>
+    </genClasses>
+    <genClasses ecoreClass="AddressBook.ecore#//Group">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AddressBook.ecore#//Group/Entries"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
